@@ -1,6 +1,5 @@
 import { Shield, FileText, Building2, Landmark, Award, CalendarDays } from "lucide-react";
 import CredentialCard from "@/components/CredentialCard";
-import heroBg from "@/assets/hero-bg.jpg";
 
 const credentials = [
   { icon: FileText, label: "رقم الترخيص", value: "36921" },
@@ -15,11 +14,7 @@ const Index = () => {
   return (
     <main>
       {/* Hero */}
-      <section className="relative min-h-[85vh] flex items-center justify-center overflow-hidden">
-        <div className="absolute inset-0">
-          <img src={heroBg} alt="مقر شركة التوازن الأول" className="w-full h-full object-cover" />
-          <div className="absolute inset-0 bg-gradient-navy/80" />
-        </div>
+      <section className="relative min-h-[85vh] flex items-center justify-center overflow-hidden bg-gradient-navy">
         <div className="relative container mx-auto text-center py-32">
           <div className="inline-flex items-center gap-3 bg-accent/20 backdrop-blur-sm rounded-full px-6 py-2 mb-8 animate-fade-up">
             <Shield className="w-5 h-5 text-accent" />
