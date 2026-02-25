@@ -18,8 +18,8 @@ const Index = () => {
       <section className="relative min-h-[85vh] flex items-center justify-center overflow-hidden bg-gradient-navy">
         <div className="relative container mx-auto text-center py-32">
           <div className="mb-10 animate-fade-up">
-            <div className="w-28 h-28 md:w-36 md:h-36 mx-auto rounded-2xl overflow-hidden bg-white shadow-lg shadow-black/20 backdrop-blur-sm">
-              <img src={companyLogo} alt="شعار شركة التوازن الأول للتفتيش والمطابقة الدولية" className="w-[140%] h-[140%] object-cover object-center -m-[20%]" />
+            <div className="w-24 h-24 md:w-32 md:h-32 mx-auto rounded-2xl overflow-hidden bg-white p-2 shadow-lg shadow-black/20 ring-2 ring-accent/30">
+              <img src={companyLogo} alt="شعار شركة التوازن الأول للتفتيش والمطابقة الدولية" className="w-full h-full object-contain" />
             </div>
           </div>
           <div className="inline-flex items-center gap-3 bg-accent/20 backdrop-blur-sm rounded-full px-6 py-2 mb-8 animate-fade-up" style={{ animationDelay: "0.1s" }}>
