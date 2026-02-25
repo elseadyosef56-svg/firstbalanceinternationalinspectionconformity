@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Menu, X, Shield } from "lucide-react";
+import { Menu, X } from "lucide-react";
+import companyLogo from "@/assets/company-logo.jpeg";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,9 +20,7 @@ const Navbar = () => {
       <div className="container mx-auto flex items-center justify-between py-3">
         {/* Logo */}
         <Link to="/" className="flex items-center gap-3 group">
-          <div className="w-12 h-12 rounded-lg bg-gradient-navy flex items-center justify-center shadow-gold">
-            <Shield className="w-7 h-7 text-accent" />
-          </div>
+          <img src={companyLogo} alt="شعار الشركة" className="w-12 h-12 rounded-lg object-contain" />
           <div className="hidden sm:block">
             <h1 className="font-heading text-sm font-bold text-foreground leading-tight">
               التوازن الأول
