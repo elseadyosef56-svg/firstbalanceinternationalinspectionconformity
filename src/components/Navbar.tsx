@@ -20,12 +20,14 @@ const Navbar = () => {
       <div className="container mx-auto flex items-center justify-between py-3">
         {/* Logo */}
         <Link to="/" className="flex items-center gap-3 group">
-          <img src={companyLogo} alt="شعار الشركة" className="w-12 h-12 rounded-lg object-contain" />
+          <div className="w-14 h-14 rounded-xl bg-white p-1.5 shadow-md group-hover:shadow-gold transition-shadow duration-300">
+            <img src={companyLogo} alt="شعار شركة التوازن الأول" className="w-full h-full object-contain" />
+          </div>
           <div className="hidden sm:block">
-            <h1 className="font-heading text-sm font-bold text-foreground leading-tight">
+            <h1 className="font-heading text-base font-bold text-foreground leading-tight group-hover:text-primary transition-colors">
               التوازن الأول
             </h1>
-            <p className="text-xs text-muted-foreground">للتفتيش والمطابقة الدولية</p>
+            <p className="text-[11px] text-muted-foreground font-medium">للتفتيش والمطابقة الدولية</p>
           </div>
         </Link>
 
