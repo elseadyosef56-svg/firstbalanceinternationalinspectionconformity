@@ -20,8 +20,8 @@ const Navbar = () => {
       <div className="container mx-auto flex items-center justify-between py-3">
         {/* Logo */}
         <Link to="/" className="flex items-center gap-3 group">
-          <div className="w-14 h-14 rounded-xl bg-white p-1.5 shadow-md group-hover:shadow-gold transition-shadow duration-300">
-            <img src={companyLogo} alt="شعار شركة التوازن الأول" className="w-full h-full object-contain" />
+          <div className="w-12 h-12 rounded-xl overflow-hidden bg-white shadow-md group-hover:shadow-gold transition-shadow duration-300 flex-shrink-0">
+            <img src={companyLogo} alt="شعار شركة التوازن الأول" className="w-[140%] h-[140%] object-cover object-center -m-[20%]" />
           </div>
           <div className="hidden sm:block">
             <h1 className="font-heading text-base font-bold text-foreground leading-tight group-hover:text-primary transition-colors">
