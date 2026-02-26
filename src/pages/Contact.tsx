@@ -34,12 +34,12 @@ const Contact = () => {
             {/* Quick Actions */}
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
               <a
-                href="tel:0922179767"
+                href="tel:0918932525"
                 className="flex flex-col items-center gap-2 p-5 rounded-xl bg-card border border-border shadow-luxury card-hover text-center"
               >
                 <Phone className="w-6 h-6 text-primary" />
                 <span className="font-heading text-xs font-bold text-foreground">اتصل بنا</span>
-                <span className="text-xs text-muted-foreground" dir="ltr">0922179767</span>
+                <span className="text-xs text-muted-foreground" dir="ltr">091-8932525</span>
               </a>
               <a
                 href="mailto:info@firstbalance.ly"
@@ -69,10 +69,10 @@ const Contact = () => {
               </p>
               <div className="flex flex-wrap gap-3 text-sm">
                 <span className="text-muted-foreground" dir="ltr">
-                  <Phone className="w-4 h-4 inline ml-1 text-primary" />0922179767
+                  <Phone className="w-4 h-4 inline ml-1 text-primary" />091-8932525
                 </span>
                 <span className="text-muted-foreground" dir="ltr">
-                  <Phone className="w-4 h-4 inline ml-1 text-primary" />09121797767
+                  <Phone className="w-4 h-4 inline ml-1 text-primary" />091-2117200
                 </span>
               </div>
             </div>
