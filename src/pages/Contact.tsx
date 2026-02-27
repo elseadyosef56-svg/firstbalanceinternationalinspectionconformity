@@ -35,16 +35,16 @@ const Contact = () => {
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
               <a
                 href="tel:0918932525"
-                className="flex flex-col items-center gap-2 p-5 rounded-xl bg-card border border-border shadow-luxury card-hover text-center"
-              >
+                className="flex flex-col items-center gap-2 p-5 rounded-xl bg-card border border-border shadow-luxury card-hover text-center">
+
                 <Phone className="w-6 h-6 text-primary" />
                 <span className="font-heading text-xs font-bold text-foreground">اتصل بنا</span>
                 <span className="text-xs text-muted-foreground" dir="ltr">091-8932525</span>
               </a>
               <a
                 href="mailto:info@firstbalance.ly"
-                className="flex flex-col items-center gap-2 p-5 rounded-xl bg-card border border-border shadow-luxury card-hover text-center"
-              >
+                className="flex flex-col items-center gap-2 p-5 rounded-xl bg-card border border-border shadow-luxury card-hover text-center">
+
                 <Mail className="w-6 h-6 text-primary" />
                 <span className="font-heading text-xs font-bold text-foreground">البريد الإلكتروني</span>
                 <span className="text-xs text-muted-foreground">info@firstbalance.ly</span>
@@ -53,8 +53,8 @@ const Contact = () => {
                 href="https://maps.google.com/?q=32.7633,12.7267"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex flex-col items-center gap-2 p-5 rounded-xl bg-card border border-border shadow-luxury card-hover text-center"
-              >
+                className="flex flex-col items-center gap-2 p-5 rounded-xl bg-card border border-border shadow-luxury card-hover text-center">
+
                 <MapPin className="w-6 h-6 text-primary" />
                 <span className="font-heading text-xs font-bold text-foreground">الموقع</span>
                 <span className="text-xs text-muted-foreground">الزاوية، ليبيا</span>
@@ -71,7 +71,7 @@ const Contact = () => {
                 <span className="text-muted-foreground" dir="ltr">
                   <Phone className="w-4 h-4 inline ml-1 text-primary" />091-8932525
                 </span>
-                <span className="text-muted-foreground" dir="ltr">
+                <span className="text-muted-foreground" dir="ltr">091-6611414
                   <Phone className="w-4 h-4 inline ml-1 text-primary" />091-2117200
                 </span>
               </div>
@@ -87,8 +87,8 @@ const Contact = () => {
                 style={{ border: 0 }}
                 allowFullScreen
                 loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-              />
+                referrerPolicy="no-referrer-when-downgrade" />
+
             </div>
           </div>
 
@@ -106,8 +106,8 @@ const Contact = () => {
                     onChange={(e) => setForm({ ...form, name: e.target.value })}
                     maxLength={100}
                     className="w-full px-4 py-3 rounded-lg bg-secondary border border-border text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/50 transition-all"
-                    placeholder="أدخل اسمك الكامل"
-                  />
+                    placeholder="أدخل اسمك الكامل" />
+
                 </div>
                 <div>
                   <label className="block text-sm font-medium text-foreground mb-1.5">البريد الإلكتروني *</label>
@@ -118,8 +118,8 @@ const Contact = () => {
                     maxLength={255}
                     className="w-full px-4 py-3 rounded-lg bg-secondary border border-border text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/50 transition-all"
                     placeholder="example@email.com"
-                    dir="ltr"
-                  />
+                    dir="ltr" />
+
                 </div>
                 <div>
                   <label className="block text-sm font-medium text-foreground mb-1.5">الموضوع</label>
@@ -129,8 +129,8 @@ const Contact = () => {
                     onChange={(e) => setForm({ ...form, subject: e.target.value })}
                     maxLength={200}
                     className="w-full px-4 py-3 rounded-lg bg-secondary border border-border text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/50 transition-all"
-                    placeholder="موضوع الرسالة"
-                  />
+                    placeholder="موضوع الرسالة" />
+
                 </div>
                 <div>
                   <label className="block text-sm font-medium text-foreground mb-1.5">الرسالة *</label>
@@ -140,13 +140,13 @@ const Contact = () => {
                     maxLength={1000}
                     rows={5}
                     className="w-full px-4 py-3 rounded-lg bg-secondary border border-border text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/50 transition-all resize-none"
-                    placeholder="اكتب رسالتك هنا..."
-                  />
+                    placeholder="اكتب رسالتك هنا..." />
+
                 </div>
                 <button
                   type="submit"
-                  className="w-full py-3.5 rounded-lg bg-primary text-primary-foreground font-heading font-bold text-sm flex items-center justify-center gap-2 hover:brightness-110 shadow-luxury transition-all duration-300"
-                >
+                  className="w-full py-3.5 rounded-lg bg-primary text-primary-foreground font-heading font-bold text-sm flex items-center justify-center gap-2 hover:brightness-110 shadow-luxury transition-all duration-300">
+
                   <Send className="w-4 h-4" />
                   إرسال الرسالة
                 </button>
@@ -155,8 +155,8 @@ const Contact = () => {
           </div>
         </div>
       </section>
-    </main>
-  );
+    </main>);
+
 };
 
 export default Contact;
