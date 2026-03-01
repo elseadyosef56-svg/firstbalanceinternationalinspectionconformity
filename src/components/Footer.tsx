@@ -38,7 +38,7 @@ const Footer = () => {
             <div className="flex flex-col gap-3">
               <div className="flex items-center gap-2 text-sm text-primary-foreground/70">
                 <Phone className="w-4 h-4 text-accent" />
-                <span dir="ltr">091-2117200
+                <span dir="ltr">091-6611414
                 </span>
               </div>
               <div className="flex items-center gap-2 text-sm text-primary-foreground/70">
