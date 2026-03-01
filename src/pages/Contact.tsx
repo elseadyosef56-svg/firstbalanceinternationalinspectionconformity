@@ -34,12 +34,12 @@ const Contact = () => {
             {/* Quick Actions */}
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
               <a
-                href="tel:0918932525"
+                href="tel:0916611414"
                 className="flex flex-col items-center gap-2 p-5 rounded-xl bg-card border border-border shadow-luxury card-hover text-center">
 
                 <Phone className="w-6 h-6 text-primary" />
                 <span className="font-heading text-xs font-bold text-foreground">اتصل بنا</span>
-                <span className="text-xs text-muted-foreground" dir="ltr">091-8932525</span>
+                <span className="text-xs text-muted-foreground" dir="ltr">091-6611414</span>
               </a>
               <a
                 href="mailto:info@firstbalance.ly"
