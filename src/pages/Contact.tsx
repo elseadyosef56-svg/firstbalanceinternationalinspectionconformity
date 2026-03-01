@@ -71,6 +71,9 @@ const Contact = () => {
                 <span className="text-muted-foreground" dir="ltr">
                   <Phone className="w-4 h-4 inline ml-1 text-primary" />091-8932525
                 </span>
+                <span className="text-muted-foreground" dir="ltr">
+                  <Phone className="w-4 h-4 inline ml-1 text-primary" />091-6611414
+                </span>
               </div>
             </div>
 
